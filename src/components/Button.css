@@ -1,13 +1,35 @@
-.Button {
-  width: 60%;
-  margin-left: 20%;
-  font-size: 5vw;
-  padding: 2%;
-  border: none;
-  background-color: #FFFFFF;
-  color: #000000;
+/* wide screens */
+@media only screen and (min-width: 641px) {
+  .Button {
+    width: 40%;
+    
+    font-size: 3vw;
+    padding: 2%;
+    margin: 2% 30% 0% 30%;
+    
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    
+    display: inline-block; 
+  }
   
-  display: inline-block;
+}
+
+/* small screens */
+@media only screen and (max-width: 640px) {
+  .Button {
+    width: 100%;
+    
+    font-size: 6vw;
+    padding: 10%;
+    
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+
+    display: inline-block;
+
+  }
   
-  position: relative;
 }

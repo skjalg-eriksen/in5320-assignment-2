@@ -1,22 +1,63 @@
-.TextOnImage {
-  width: 100%;
+/* wide screens */
+@media only screen and (min-width: 641px) {
+  /*all elements*/
+  .TextOnImage {
+    max-height: 650px;
+    width: 100%;
+    overflow:hidden;
+  }
+  .wrapper {
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+    display: inline-block;
+  }
+  /*image*/
+  .wrapper img {
+    width:100%;
+    display: inline;
+    margin-top: -35%;
+  }
+  /*text*/
+  .text-wrapper {
+    text-shadow: 0px 0px 1vw #000000;
+    width: 100%;
+    position: relative;
+    color: #FFFFFF;
+  }
+  .text-wrapper p {
+    text-align: center;
+    font-size: 5vw;
+  }
 }
-.wrapper {
-  width: 80%;
-  margin: 0% 10% 0% 10%;
-  display: inline-block;
-}
-.wrapper img {
-  width: 100%;
-  margin-top: -25%;
-}
-.text-wrapper {
-  text-shadow: 0px 0px 5vw #000000;
-  width: 100%;
-  position: relative;
-  color: #FFFFFF;
-}
-.text-wrapper p {
-  text-align: center;
-  font-size: 5vw;
+
+/* small screens */
+@media only screen and (max-width: 640px) {
+  /*all elements*/
+  .TextOnImage {
+      width: 100%;
+    }
+    .wrapper {
+      width: 100%;
+      margin: 0% 0% 0% 0%;
+      display: inline-block;
+    }
+    /*image*/
+    .wrapper img {
+      overflow: hidden;
+      width: 100%;
+      margin-top: -35%;
+      clear:both;
+    }
+    /*text*/
+    .text-wrapper {
+      text-shadow: 0px 0px 5vw #000000;
+      width: 100%;
+      position: relative;
+      color: #FFFFFF;
+      
+    }
+    .text-wrapper p {
+      text-align: center;
+      font-size: 9vw;
+    }
 }

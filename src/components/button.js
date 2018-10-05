@@ -10,7 +10,7 @@ class Button extends React.Component {
   
   render(name, func) {
     return (
-      <div>
+      <div className="Button-wrapper">
         <form onSubmit={this.handleSubmit}>
           <input className="Button" type="submit" value={this.props.name}/>
         </form>

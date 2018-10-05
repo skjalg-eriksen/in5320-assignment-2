@@ -72,7 +72,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>things to do :)</h1>
-        <TextOnImage onClick={this.Generate} image_src={src} text_={text_} />
+        <TextOnImage image_src={src} text_={text_} />
         <Button name="Click me!" func = {this.Generate}/>
       </div>
     );

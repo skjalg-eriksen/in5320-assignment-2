@@ -1,3 +1,20 @@
-.App{
-  
+/* wide screens */
+@media only screen and (min-width: 641px) {
+  .App h1 {
+    font-size: 5vw;
+  }
+}
+
+/* small screens */
+@media only screen and (max-width: 640px) {
+  .App h1 {
+      font-size: 9vw;
+    }
+}
+
+/* all */
+.App h1 {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 1vw #000000;
 }
