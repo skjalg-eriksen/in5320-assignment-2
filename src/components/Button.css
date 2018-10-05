@@ -1,0 +1,13 @@
+.Button {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 5vw;
+  padding: 2%;
+  border: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  
+  display: inline-block;
+  
+  position: relative;
+}

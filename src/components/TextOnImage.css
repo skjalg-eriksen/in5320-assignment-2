@@ -1,0 +1,22 @@
+.TextOnImage {
+  width: 100%;
+}
+.wrapper {
+  width: 80%;
+  margin: 0% 10% 0% 10%;
+  display: inline-block;
+}
+.wrapper img {
+  width: 100%;
+  margin-top: -25%;
+}
+.text-wrapper {
+  text-shadow: 0px 0px 5vw #000000;
+  width: 100%;
+  position: relative;
+  color: #FFFFFF;
+}
+.text-wrapper p {
+  text-align: center;
+  font-size: 5vw;
+}
